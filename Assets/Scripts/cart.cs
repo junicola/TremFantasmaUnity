@@ -24,7 +24,7 @@ public class cart : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.Z))
         {
-            transform.Rotate(0,0,-90*velRot);
+            transform.Rotate(0,0,-90);
         }
     }
 
